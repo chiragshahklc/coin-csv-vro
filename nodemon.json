@@ -1,0 +1,10 @@
+{
+    "execMap": {
+        "ts": "ts-node"
+    },
+    "ext": "ts,json",
+    "ignore": [
+        ".git",
+        "node_modules/**/node_modules"
+    ]
+}

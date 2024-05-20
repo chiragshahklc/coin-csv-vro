@@ -1,0 +1,29 @@
+{
+  "name": "coin-csv-vro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "bin": {
+    "coinvro": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon",
+    "start": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.1",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "commander": "^11.0.0",
+    "csv-parse": "^5.4.0",
+    "csv-stringify": "^6.4.0",
+    "xlsx": "^0.18.5"
+  }
+}
